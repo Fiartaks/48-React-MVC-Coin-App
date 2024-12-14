@@ -20,15 +20,15 @@
 ## 🏗️ MVC Characteristics
 
 ### 1. Model
-- **Data Representation**: The models handle the logic for API calls and define the structure of the data being fetched, represented in classes like `MainPageModel` and `DetailModel`.
+- **Data Representation**: The models handle the logic for API calls and define the structure of the data being fetched, represented in classes like MainPageModel and DetailModel.
 - **Validation Logic**: The validation for user inputs is provided in `schema.js`, ensuring that users enter valid data.
 
 ### 2. View
-- **User Interface**: The application consists of multiple view components (e.g., `MainPageView`, `LoginPageView`, `DetailView`) that provide the user interface for various functionalities.
+- **User Interface**: The application consists of multiple view components (e.g., MainPageView, LoginPageView, DetailView) that provide the user interface for various functionalities.
 - **Styling**: The application uses various CSS techniques, including Bootstrap, for responsive design and visual appeal.
 
 ### 3. Controller
-- **Business Logic**: Controllers like `LoginPageController` and `DetailController` handle user actions, manage state updates, and communicate between the models and views.
+- **Business Logic**: Controllers like LoginPageController and DetailController handle user actions, manage state updates, and communicate between the models and views.
 - **Data Fetching**: Controllers use Axios to fetch data from cryptocurrency APIs, ensuring that the application displays up-to-date information.
 
 ## 🛠️ What Has Been Done in the Project?
